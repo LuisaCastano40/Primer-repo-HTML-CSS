@@ -1,0 +1,19 @@
+
+/* selector: etiqueta
+    se llaman directamente
+*/
+li{
+    background-color: blue;
+}
+
+/* selector: clase - especificidad media
+    las clases se DEBEN llamar con . adelante
+*/
+.sobre-mi{
+    background-color: red;
+}
+
+/* selector: ID - especificidad alta */
+#texto{
+    font-size: 100px;
+}
